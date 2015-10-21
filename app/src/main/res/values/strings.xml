@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">mData</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_Title">mData</string>
+    <string name="userID_hint">Username</string>
+    <string name="userID_hint2">Password</string>
+    <string name="button1">NEXT</string>
+    <string name="title_activity_weka_details">Details</string>
+    <string name="titleLine">Welcome to mData Surveillance App. Please provide accurate details for the indicators provided.</string>
+    <string name="Disease1">Malaria</string>
+    <string name="Disease2">Measles</string>
+    <string name="Disease3">Cholera</string>
+    <string name="Disease4">Typhoid</string>
+    <string name="Disease5">Hepatitis</string>
+    <string name="Disease6">HIV/Aids</string>
+    <string name="checkbox_txt">I declare that all the details that I have provided are accurate as to my knowlegde</string>
+    <string name="defaultValue">0</string>
+    <string name="title_activity_about">About mData</string>
+    <string name="about">mData for South Sudan, is an SMS based mobile phone application that has been specifically design for the sole purpose of data collection in real time, the data is then stored in the cloud where it can be accessed and used for good decision making.</string>
+    <string name="company">Developed By Dynamic Consult</string>
+    <string name="url">www.dynamicconsult-ss.com</string>
+    <string name="version">V 1.0.0</string>
+    <string name="title_activity_choose">Choose Next Activity</string>
+    <string name="buttonSubmit">SUBMIT DATA</string>
+    <string name="buttonSupport">SUPPORT</string>
+    <string name="title_activity_faq">Frequently Asked Questions</string>
+    <string name="faq1">I cant login in</string>
+    <string name="faq1answer">Refresh the application</string>
+    <string name="week">Select the week the data belongs to</string>
+
+
+
+</resources>

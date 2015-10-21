@@ -1,0 +1,207 @@
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:background="#e5e5e5"
+            tools:context="com.example.dynamicict.mhealthsurvellance.wekaDetails">
+
+
+            <ImageView
+                android:src="@mipmap/logo2013"
+                android:layout_width="100dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/titleLine"
+                android:textSize="@dimen/regular"
+                android:id="@+id/titleline"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="53dp"
+                android:typeface="monospace"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/selweek"
+                android:layout_below="@+id/titleline"
+                android:layout_alignParentLeft="true"
+                android:text="@string/week"
+                android:textSize="@dimen/small_size"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:layout_width="100sp"
+                android:layout_height="60sp"
+                android:id="@+id/mySpinner"
+                android:textAlignment="gravity"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/titleline">
+            </Spinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/Disease1"
+                android:textSize="@dimen/regular_size"
+                android:id="@+id/textView3"
+                android:layout_below="@+id/mySpinner"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/Disease2"
+                android:textSize="@dimen/regular_size"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/Disease3"
+                android:textSize="@dimen/regular_size"
+                android:id="@+id/textView5"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/Disease4"
+                android:textSize="@dimen/regular_size"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/Disease5"
+                android:textSize="@dimen/regular_size"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/Disease6"
+                android:textSize="@dimen/regular_size"
+                android:id="@+id/textView8"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:hint="@string/defaultValue"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/d1"
+                android:layout_alignBottom="@+id/textView3"
+                android:layout_alignLeft="@+id/d2"
+                android:layout_alignStart="@+id/d2" />
+
+            <EditText
+                android:hint="@string/defaultValue"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/d2"
+                android:layout_below="@+id/d1"
+                android:layout_alignLeft="@+id/d4"
+                android:layout_alignStart="@+id/d4" />
+
+            <EditText
+                android:hint="@string/defaultValue"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/d3"
+                android:layout_below="@+id/d2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <EditText
+                android:hint="@string/defaultValue"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/d4"
+                android:layout_alignTop="@+id/textView6"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <EditText
+                android:hint="@string/defaultValue"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/d5"
+                android:layout_above="@+id/d6"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <EditText
+                android:hint="@string/defaultValue"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/d6"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <!--<CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox_txt"
+                android:id="@+id/checkBox"
+                android:layout_below="@+id/btnDetails"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>-->
+
+
+            <ImageButton
+                android:background="@drawable/send"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:id="@+id/btnDetails"
+                android:layout_below="@+id/d6"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+</ScrollView>

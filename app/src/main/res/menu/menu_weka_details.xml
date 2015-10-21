@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dynamicict.mhealthsurvellance.wekaDetails">
+    <item
+        android:title="About"
+        android:id="@+id/about"
+        app:showAsAction="always"
+        />
+</menu>
